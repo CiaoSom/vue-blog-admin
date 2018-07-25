@@ -22,7 +22,7 @@
                     </FormItem>
                 </Form>
             </div>
-            <p class="copy">@lscho</p>
+            
 </div>
 </template>
 

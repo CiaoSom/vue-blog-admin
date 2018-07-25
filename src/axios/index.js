@@ -2,8 +2,8 @@ import axios from 'axios'
 import { Message, LoadingBar } from 'iview'
 import store from '@/store'
 import router from '@/router'
-
-axios.defaults.baseURL = '/api'
+import * as config from './config.js'
+axios.defaults.baseURL = config.API_ROOT
 axios.defaults.timeout = 5000
 
 // http请求拦截器
