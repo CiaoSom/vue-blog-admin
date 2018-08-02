@@ -10,6 +10,7 @@ axios.defaults.timeout = 5000
 axios.interceptors.request.use(config => {
   // 进度条开始
   LoadingBar.start()
+
   // token
   if (localStorage.getItem('token')) {
 

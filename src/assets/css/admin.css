@@ -202,3 +202,7 @@ body {
 .fl{
 	float: left;
 }
+.v-note-panel{
+	height: 454px!important;
+	overflow: hidden!important;
+}
